@@ -15,8 +15,8 @@
                 insideScroll();
                 }
 
-            scroll(menuNav, 'sticky', 455);
-            scroll(menuItems, 'spacing', 455);
+            scroll(menuNav, 'sticky', 470);
+            scroll(menuItems, 'spacing', 470);
     
             function allscroll(element, delayTime, moreThan, lessThan) {
                     setTimeout(async function() {
