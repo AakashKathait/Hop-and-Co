@@ -41,7 +41,7 @@ img {
 
 .img-container {
     background-color: #3a3635;
-    background-image: url('/assets/images/DSCF0105.jpg');
+    background-image: url('./assets/images/DSCF0105.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -131,7 +131,7 @@ img {
 
 .menu-img {
     content: '';
-    background-image: url(/assets/images/DSCF0154.jpg);
+    background-image: url('./assets/images/DSCF0154.jpg');
     background-position: center;
     background-position: center;
     background-size: cover;

@@ -112,7 +112,7 @@ img {
 .menu-img-container {
     background: no-repeat;
     background-color: #3a3635;
-    background-image: url('/assets/images/DSCF0204.jpg');
+    background-image: url('./assets/images/DSCF0204.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
