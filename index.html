@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600&family=Poppins:wght@500;600&family=Raleway:wght@500;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Hop & Co</title>
+</head>
+<body>
+<div class="main-container">
+    <section id="home">
+        <div class="background-img">
+            <div class="img-container">
+                <div class="text"><div><h1>Hop & Co</h1><p>Catering Services</p></div></div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="design">
+                <div class="flex">
+                    <span class="hop">
+                        <svg class="logo" viewbox='0 0 250 150'>
+                            <use href='#logo'></use>
+                        </svg>
+                    </span>
+                    <ul class="nav">
+                        <li class="nav-home"><a href="#home">Home</a></li>
+                        <li class="nav-menu"><a href="/menu.html">Menu</a></li>
+                        <li class="nav-about"><a href="#about">About</a> </li>
+                        <li class="nav-contact"><a href="#contact">Contact</a> </li>
+                    </ul>
+                    <div class="hamburger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="about" class="section-about">
+        <div class="row about-container">
+            <div class="img-section col"><img src="./assets/images/DSCF0008.jpg" alt=""> <div><h1>Executive Chef</h1></div></div>
+            <div  class="about-text col"><h1>About</h1><p>Chef Helen holds a Bachelor of Hospitality Management degree. She received her Red Seal Certification through the Fairmont hotels and was part of the opening team for Fairmont Pacific Rim Hotel in Vancouver. She is currently the Chef instructor at Vancouver Community College for the Restaurant Operations course in the Hospitality Management program. <br> With a Filipino background, Chef Helen Orimaco-Pumatong is able to incorporate authentic Asian flavours with her classic culinary training.</p></div>
+        </div>
+    </section>
+    <section id="menu" class="section-menu">
+        <div class="menu-img">
+            <div class="menu"><h1>Home-Cooked Comfort Food</h1></div>
+            <div class="menu-btn"><a href="/menu.html">Menu</a></div>
+        </div>
+    </section>
+
+    <section id="contact"  class="contact-form">
+        <div class="form container">
+            <h1>Contact Us</h1>
+            <p>hopandco@gmail.com</p>
+            <p>TEL: 123-456-7890</p>
+            <hr>
+            <div class="feedback">
+                <h1>Let us know what you think</h1> <br>
+            </div>
+            <form id="contact-form" action="POST">
+                <div class="flex-spacing">
+                    <div>
+                        <div>
+                            <div>Name*</div>
+                            <input class="name" type="text" required>
+                        </div>
+                        <div>
+                            <div>Email*</div>
+                            <input class="email" type="email" required>
+                        </div>
+                        <div>
+                            <div>Subject*</div>
+                            <input class="subject" type="text" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>Feedback*</div>
+                            <textarea class="message" name="" id="" cols="30" rows="13" style="resize:none" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit"><button type="submit">Submit</button></div>
+            </form>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="socials">
+            <a class="svg-holder" href="https://www.facebook.com/pages/category/Caterer/HOP-Co-113663007059444/" target="_blank" rel="noopener noreferrer"><img class="platform" src="/assets/svgs/facebook.svg" alt=""></a>
+            <a class="svg-holder" href="https://www.instagram.com/hop_andco/?hl=en" target="_blank" rel="noopener noreferrer"><img class="platform" src="/assets/svgs/instagram.svg" alt=""></a>
+        </div>
+    </section>
+    <a href="tel:+1778-883-5262">
+        <section class="footer">
+            Tel: 778-883-5262
+        </section>
+    </a>
+</div>  
+    <svg class="main-svg">
+        <symbol id="logo">
+            <line x1='20' y1='75' x2='120' y2='75' stroke='#dbd8d0' stroke-width='3px'/>
+            <line x1='50' y1='20' x2='50' y2='120' stroke='#dbd8d0' stroke-width='6px'/>
+            <line x1='90' y1='20' x2='90' y2='120' stroke='#dbd8d0' stroke-width='6px'/>
+            <line x1='44' y1='21' x2='56' y2='21' stroke='#dbd8d0' stroke-width='3px'/>
+            <line x1='84' y1='21' x2='96' y2='21' stroke='#dbd8d0' stroke-width='3px'/>
+            <line x1='44' y1='119' x2='56' y2='119' stroke='#dbd8d0' stroke-width='3px'/>
+            <line x1='84' y1='119' x2='96' y2='119' stroke='#dbd8d0' stroke-width='3px'/>
+            <text x='105' y='112' fill='#dbd8d0' class="logo-name">OP</text>
+            <text x='154' y='112' fill='#DBA11C' class="logo-name">&</text>
+            <text  x='182' y='112' fill='#dbd8d0' class="logo-name">Co</text>
+        </symbol>
+      </svg>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
