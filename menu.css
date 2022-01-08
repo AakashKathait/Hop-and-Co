@@ -96,6 +96,10 @@ img {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
+.navbar::after {
+    background: black;
+}
+
 .menu-nav-items:hover::after {
     width: 0;
     left: 50%;
@@ -121,6 +125,7 @@ img {
     position: relative;
     z-index: -2;
     background-blend-mode: overlay;
+    margin-top: 100px;
 }
 
 .menu-text {
@@ -185,7 +190,6 @@ img {
     position: fixed;
     width: 100vw;
     top: 100px;
-    transition: width 0.3s ease 0s;
 }
 
 .menu-nav li a::after {
@@ -283,10 +287,14 @@ img {
     margin-bottom: 3em;
 }
 
+.menu-img-container {
+    margin-top: 0;
+}
+
 .absolute {
     position: relative;
     top: 0;
-    }
+}
 
 .menu-nav {
     width: 80%;
