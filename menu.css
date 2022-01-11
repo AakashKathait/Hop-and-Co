@@ -126,6 +126,7 @@ img {
     z-index: -2;
     background-blend-mode: overlay;
     margin-top: 100px;
+    scale: 1;
 }
 
 .menu-text {

@@ -50,6 +50,7 @@ img {
     position: relative;
     z-index: -2;
     background-blend-mode: overlay;
+    scale: 1;
 }
 
 .text {
@@ -141,6 +142,7 @@ img {
     background-color: #3a3635;
     background-blend-mode: overlay;
     position: relative;
+    scale: 1;
 }
 
 .menu {
