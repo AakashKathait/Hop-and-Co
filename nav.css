@@ -153,6 +153,7 @@ z-index: 2;
 
 .footer {
     display: none;
+    z-index: 5;
 }
 
 @media screen and (max-width:100px) {
