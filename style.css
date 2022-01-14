@@ -41,11 +41,12 @@ img {
 
 .img-container {
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0105.jpg')no-repeat center center fixed;
+    background-image: url('./assets/images/DSCF0105.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
     width: 100%;
     max-width: 100%;
     background-position: center;
