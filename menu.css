@@ -60,6 +60,7 @@ img {
     top: -2px;
     height: 3px;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: all 0.3s ease;
 }
 
 
@@ -116,14 +117,12 @@ img {
 .menu-img-container {
     background: no-repeat;
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0204.jpg')no-repeat center center fixed;
+    background-image: url('./assets/images/DSCF0204.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
     width: 100%;
-    max-width: 100%;    
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
