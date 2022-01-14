@@ -41,16 +41,20 @@ img {
 
 .img-container {
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0105.jpg');
-    background-position: center;
+    background-image: url('./assets/images/DSCF0105.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    overflow: hidden;
     width: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
     z-index: -2;
     background-blend-mode: overlay;
-    scale: 1;
 }
 
 .text {
@@ -132,17 +136,21 @@ img {
 
 .menu-img {
     content: '';
-    background-image: url('./assets/images/DSCF0154.jpg');
-    background-position: center;
+    background-image: url('./assets/images/DSCF0154.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;    
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 40vh;
-    width: 100%;
     background-color: #3a3635;
     background-blend-mode: overlay;
     position: relative;
-    scale: 1;
 }
 
 .menu {

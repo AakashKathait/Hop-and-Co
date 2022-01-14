@@ -116,7 +116,14 @@ img {
 .menu-img-container {
     background: no-repeat;
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0204.jpg');
+    background-image: url('./assets/images/DSCF0204.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;    
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -126,7 +133,6 @@ img {
     z-index: -2;
     background-blend-mode: overlay;
     margin-top: 100px;
-    scale: 1;
 }
 
 .menu-text {
