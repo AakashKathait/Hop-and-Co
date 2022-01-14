@@ -123,6 +123,7 @@ img {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
+    max-width: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
