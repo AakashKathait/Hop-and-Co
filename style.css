@@ -40,6 +40,7 @@ img {
 }
 
 .img-container {
+    background: no-repeat;
     background-color: #3a3635;
     background-image: url('./assets/images/DSCF0105.jpg');
     max-width: 100%;
@@ -133,6 +134,7 @@ img {
 
 
 .menu-img {
+    background: no-repeat;
     background-image: url('./assets/images/DSCF0154.jpg');
     max-width: 100%;
     -webkit-background-size: cover;
