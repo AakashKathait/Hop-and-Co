@@ -41,13 +41,12 @@ img {
 
 .img-container {
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0105.jpg') no-repeat;
+    background-image: url('./assets/images/DSCF0105.jpg');
     max-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
@@ -134,8 +133,7 @@ img {
 
 
 .menu-img {
-    content: '';
-    background-image: url('./assets/images/DSCF0154.jpg')no-repeat;
+    background-image: url('./assets/images/DSCF0154.jpg');
     max-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;

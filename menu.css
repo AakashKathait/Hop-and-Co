@@ -122,10 +122,8 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
     max-width: 100%;
     background-position: center;
-    background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 75vh;
