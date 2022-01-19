@@ -59,7 +59,6 @@ img {
     top: -2px;
     height: 3px;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    transition: all 0.3s ease;
 }
 
 
