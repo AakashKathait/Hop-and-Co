@@ -309,7 +309,6 @@ img {
     width: 100vw;
     top: 100px;
     transition: width 0.3s ease 0s;
-    transition: all 0.3s ease;
 }
 
 .spacing {
