@@ -36,9 +36,9 @@
             })
             //Click Fuctions
             function allClick(element) {
-            element.addEventListener('click', () => {
-                    element.classList.remove('menu-nav-items')
-                    element.classList.add('top-hat') 
+            element.addEventListener('click', async function() {
+                    await element.classList.remove('menu-nav-items')
+                    await element.classList.add('top-hat') 
 
                     function allscroll(element, delayTime, moreThan, lessThan) {
                         setTimeout(async function() {
