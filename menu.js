@@ -29,10 +29,6 @@
                     }, delayTime);
             }
     
-            allscroll(sides, 500, 620, 1200);
-            allscroll(entrees, 500, 1200, 2100);
-            allscroll(baked, 500, 2100, 4000)
-    
             //Click Fuctions
             function allClick(element, moreThan, lessThan) {
             element.addEventListener('click', async function() {
@@ -47,4 +43,8 @@
             allClick(sides, 620, 1200);
             allClick(entrees, 1200, 2100);
             allClick(baked, 2100, 4000);
+
+            allscroll(sides, 500, 620, 1200);
+            allscroll(entrees, 500, 1200, 2100);
+            allscroll(baked, 500, 2100, 4000)
         })
