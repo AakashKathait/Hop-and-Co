@@ -41,17 +41,18 @@
                     element.classList.add('top-hat')
 
                         function allscroll(element, delayTime, moreThan, lessThan) {
-                                if (window.scrollY > moreThan && window.scrollY < lessThan) {
- 
-                                }else{
-                                        element.classList.remove('top-hat')   
-                                }
+                                setTimeout(function() {
+                                        if (window.scrollY > moreThan && window.scrollY < lessThan) {
+                                                element.classList.add('top-hat')
+                                        }else{
+                                                element.classList.remove('top-hat') 
+                                        }  
+                                }, delayTime)
                         }
-
                                                                                 
                         allscroll(sides, 500, 620, 1200);
                         allscroll(entrees, 500, 1200, 2100);
-                        allscroll(baked, 500, 2100, 4000)
+                        allscroll(baked, 500, 2100, 4000);
             })
             }
     
