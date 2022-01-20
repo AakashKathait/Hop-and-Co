@@ -56,7 +56,7 @@ img {
     background-size: cover;
     width: 100%;
     max-width: 100%;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     height: 100%;
     position: relative;
@@ -538,6 +538,9 @@ input {
 
 textarea {
     width: 20em;
+}
+.img-container {
+background-attachment: scroll;
 }
 
 }
