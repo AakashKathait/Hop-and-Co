@@ -39,10 +39,10 @@
             element.addEventListener('click', async function() {
                 element.classList.remove('menu-nav-items')
                 element.classList.add('top-hat') 
-                setTimeout(() => {
-                        await element.classList.remove('top-hat', window.scrollY < moreThan && window.scrollY > lessThan)
-                        await element.classList.add('menu-nav-items', window.scrollY < moreThan && window.scrollY > lessThan)
-                }, 500);
+                // setTimeout(() => {
+                //         await element.classList.remove('top-hat', window.scrollY < moreThan && window.scrollY > lessThan)
+                //         await element.classList.add('menu-nav-items', window.scrollY < moreThan && window.scrollY > lessThan)
+                // }, 500);
             })
             }
     
