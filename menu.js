@@ -33,14 +33,12 @@
             allscroll(entrees, 500, 1200, 2100);
             allscroll(baked, 500, 2100, 4000)
     
-            })
             //Click Fuctions
             function allClick(element) {
             element.addEventListener('click', async function() {
                     await element.classList.remove('menu-nav-items')
                     await element.classList.add('top-hat') 
 
-                window.addEventListener('scroll', function() {
                         function allscroll(element, delayTime, moreThan, lessThan) {
                                 setTimeout(async function() {
                                         await element.classList.toggle('top-hat', window.scrollY > moreThan && window.scrollY < lessThan)
@@ -55,10 +53,10 @@
                         allscroll(sides, 500, 620, 1200);
                         allscroll(entrees, 500, 1200, 2100);
                         allscroll(baked, 500, 2100, 4000)
-                })
             })
             }
     
             allClick(sides);
             allClick(entrees);
             allClick(baked);
+        })
