@@ -145,15 +145,15 @@ img {
 .menu-img {
     background: no-repeat;
     background-image: url('./assets/images/DSCF0154-min.jpg');
-    max-width: 100%;
+    max-width: 100vw;
+    width: 100vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   
+    background-size: contain;   
     background-position: center;
     background-attachment: fixed;
     height: 40vh;
-    min-height: 100%;
     background-color: #3a3635;
     background-blend-mode: overlay;
     position: relative;
