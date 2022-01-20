@@ -38,21 +38,22 @@
             function allClick(element) {
             element.addEventListener('click', () => {
                     element.classList.remove('menu-nav-items')
-                    element.classList.add('top-hat')
+                    element.classList.add('top-hat') 
 
-                        function allscroll(element, delayTime, moreThan, lessThan) {
-                                setTimeout(function() {
-                                        if (window.scrollY > moreThan && window.scrollY < lessThan) {
-                                                element.classList.add('top-hat')
-                                        }else{
-                                                element.classList.remove('top-hat') 
-                                        }  
-                                }, delayTime)
-                        }
-                                                                                
-                        allscroll(sides, 500, 620, 1200);
-                        allscroll(entrees, 500, 1200, 2100);
-                        allscroll(baked, 500, 2100, 4000);
+                    function allscroll(element, delayTime, moreThan, lessThan) {
+                        setTimeout(async function() {
+                                await element.classList.toggle('top-hat', window.scrollY > moreThan && window.scrollY < lessThan)
+                                if (window.scrollY > moreThan && window.scrollY < lessThan) {
+                                        element.classList.remove('menu-nav-items')    
+                                }else {
+                                        element.classList.add('menu-nav-items')
+                                }
+                        }, delayTime);
+                }
+        
+                allscroll(sides, 500, 620, 1200);
+                allscroll(entrees, 500, 1200, 2100);
+                allscroll(baked, 500, 2100, 4000)
             })
             }
     
