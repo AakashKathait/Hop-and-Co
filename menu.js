@@ -31,7 +31,7 @@
     
             //Click Fuctions
             function allClick(element, moreThan, lessThan) {
-            element.addEventListener('click', async function() {
+            element.addEventListener('mousedown', async function() {
                     await element.classList.remove('menu-nav-items')
                     await element.classList.add('top-hat') 
                 setTimeout(() => {
