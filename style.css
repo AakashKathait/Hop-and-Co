@@ -48,7 +48,6 @@ img {
 }
 
 .img-container {
-    background: no-repeat;
     background-color: #3a3635;
     background-image: url('./assets/images/DSCF0105-min.jpg');
     -webkit-background-size: cover;
