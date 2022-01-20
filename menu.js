@@ -38,8 +38,9 @@
             element.addEventListener('click', async function() {
                     await element.classList.remove('menu-nav-items')
                     await element.classList.add('top-hat') 
-
-                    await element.classList.remove('top-hat', window.scrollY < moreThan && window.scrollY > lessThan)
+                setTimeout(() => {
+                        await element.classList.remove('top-hat', window.scrollY < moreThan && window.scrollY > lessThan)
+                }, 500);
             })
             }
     
