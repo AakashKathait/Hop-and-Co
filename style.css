@@ -50,16 +50,17 @@ img {
 .img-container {
     background: no-repeat;
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0105-min.jpg');
+    background-image: url('./assets/images/DSCF0105-min.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
     max-width: 100%;
-    -webkit-background-size: cover !important;
-    -moz-background-size: cover !important;
-    -o-background-size: cover !important;
-    background-size: cover !important;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
