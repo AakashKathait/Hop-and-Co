@@ -541,7 +541,12 @@ textarea {
     width: 20em;
 }
 .img-container {
-background-attachment: scroll;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+height: 100vh;
+background-attachment: fixed;
 }
 
 .menu-img {
