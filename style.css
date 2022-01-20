@@ -156,7 +156,11 @@ img {
     height: 40vh;
     background-color: #3a3635;
     background-blend-mode: overlay;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .menu {
