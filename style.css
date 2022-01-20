@@ -50,7 +50,7 @@ img {
 .img-container {
     background: no-repeat;
     background-color: #3a3635;
-    background-image: url('./assets/images/DSCF0105-min.jpg')no-repeat center center fixed;
+    background-image: url('./assets/images/DSCF0105-min.jpg')center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
