@@ -541,17 +541,33 @@ textarea {
     width: 20em;
 }
 .img-container {
-position: fixed;
-top: 0;
-right: 0;
-left: 0;
 height: 100vh;
-background-attachment: fixed;
 }
 
-.menu-img {
-background-attachment: scroll;
-}
+
+@supports ( -webkit-touch-callout : none) {
+    .img-container {
+    background-attachment:scroll
+    }
+    }
+    
+    @supports not ( -webkit-touch-callout : none) {
+    .img-container {
+    background-attachment: fixed;
+    }
+    }
+
+    @supports ( -webkit-touch-callout : none) {
+        .menu-img {
+        background-attachment:scroll
+        }
+        }
+        
+        @supports not ( -webkit-touch-callout : none) {
+        .menu-img {
+        background-attachment: fixed;
+        }
+        }
 
 }
 
