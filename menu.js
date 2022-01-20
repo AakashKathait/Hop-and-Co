@@ -32,8 +32,8 @@
             //Click Fuctions
             function allClick(element, moreThan, lessThan) {
             element.addEventListener('mousedown', async function() {
-                    await element.classList.remove('menu-nav-items')
-                    await element.classList.add('top-hat') 
+                element.classList.remove('menu-nav-items')
+                element.classList.add('top-hat') 
                 setTimeout(() => {
                         await element.classList.remove('top-hat', window.scrollY < moreThan && window.scrollY > lessThan)
                 }, 500);
