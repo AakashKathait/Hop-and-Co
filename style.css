@@ -60,7 +60,6 @@ img {
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    overflow: hidden;
     position: relative;
     z-index: -2;
     background-blend-mode: overlay;
