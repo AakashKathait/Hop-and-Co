@@ -541,6 +541,7 @@ textarea {
 }
 .img-container {
 background-attachment: scroll;
+height: 100vh;
 }
 
 }
