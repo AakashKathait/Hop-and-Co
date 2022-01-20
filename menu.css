@@ -315,5 +315,16 @@ img {
     margin-top: 100px;
 }
 
+@supports ( -webkit-touch-callout : none) {
+    .menu-img-container {
+    background-attachment:scroll
+    }
+    }
+    
+    @supports not ( -webkit-touch-callout : none) {
+    .menu-img-container {
+    background-attachment: fixed;
+    }
+    }
 
 }
