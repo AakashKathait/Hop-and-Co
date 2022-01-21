@@ -64,26 +64,28 @@
             <div class="feedback">
                 <h1>Let us know what you think</h1> <br>
             </div>
-            <form id="contact-form" action="POST">
+            <form id="contact-form" action="https://formsubmit.co/aakashkathait01@gmail.com" method="POST">
                 <div class="flex-spacing">
                     <div>
+                        <input type="hidden" name="_subject" value="Hop & Co website feedback">
+                        <input type="hidden" name="_captcha" value="false">
                         <div>
                             <div>Name*</div>
-                            <input class="name" type="text" required>
+                            <input class="name" name="name" type="text" required>
                         </div>
                         <div>
                             <div>Email*</div>
-                            <input class="email" type="email" required>
+                            <input class="email" name="email" type="email" required>
                         </div>
                         <div>
                             <div>Subject*</div>
-                            <input class="subject" type="text" required>
+                            <input class="subject" name="subject" type="text" required>
                         </div>
                     </div>
                     <div>
                         <div>
                             <div>Feedback*</div>
-                            <textarea class="message" name="" id="" cols="30" rows="13" style="resize:none" required></textarea>
+                            <textarea class="message" name="message" id="" cols="30" rows="13" style="resize:none" required></textarea>
                         </div>
                     </div>
                 </div>
