@@ -545,7 +545,7 @@ height: 100vh;
 }
 
 .menu-btn a:hover::after {
-    width: 0;
+    width: 100%;
 }
 
 .menu-btn a:hover::before {
