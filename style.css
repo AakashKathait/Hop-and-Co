@@ -544,6 +544,26 @@ textarea {
 height: 100vh;
 }
 
+.menu-btn a:hover::after {
+    width: 0;
+}
+
+.menu-btn a:hover::before {
+    width: 0;
+}
+
+.menu-btn:hover {
+    transform: translateY(0);
+}
+
+.platform:hover {
+    transform: translateY(0);
+}
+
+.submit button:hover {
+    background-color: #352927;
+    color: #ebe6db;
+}
 
 @supports ( -webkit-touch-callout : none) {
     .img-container {
