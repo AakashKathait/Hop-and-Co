@@ -530,6 +530,7 @@ textarea {
 
 .contact{
     margin-bottom: 5em;
+    padding-bottom: 2em;
 }
 
 input {
@@ -540,6 +541,7 @@ input {
 textarea {
     width: 20em;
 }
+
 .img-container {
 height: 100vh;
 }
@@ -568,6 +570,7 @@ height: 100vh;
 
 a:hover::after {
     width: 100%;
+    left: 0;
 }
 
 @supports ( -webkit-touch-callout : none) {
