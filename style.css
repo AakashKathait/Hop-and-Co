@@ -563,6 +563,7 @@ height: 100vh;
 
 .menu-btn a:hover::after {
     width: 100%;
+    left: 0;
 }
 
 a:hover::after {
