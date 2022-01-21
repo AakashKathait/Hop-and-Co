@@ -544,10 +544,6 @@ textarea {
 height: 100vh;
 }
 
-.menu-btn a:hover::after {
-    width: 100%;
-}
-
 .menu-btn a:hover::before {
     width: 0;
 }
@@ -563,6 +559,14 @@ height: 100vh;
 .submit button:hover {
     background-color: #352927;
     color: #ebe6db;
+}
+
+.menu-btn a:hover::after {
+    width: 100%;
+}
+
+a:hover::after {
+    width: 100%;
 }
 
 @supports ( -webkit-touch-callout : none) {
