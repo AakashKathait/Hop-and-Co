@@ -68,18 +68,4 @@ window.onload = function () {
 
         })
 
-        
-        //Window scroll functions
-        window.addEventListener('scroll', function() {
-
-                function scroll(element, className, moreThan) {
-                async function insideScroll() {
-                        await element.classList.toggle(className, window.scrollY >= moreThan)
-                }
-                insideScroll();
-                }
-        
-                scroll(navbar, 'back-color', 70);
-        })
-
 }

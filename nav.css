@@ -78,23 +78,10 @@ a:hover::after {
     top: 0;
     right: 0;
     left: 0;
-    background-color: #3a3635;
+    background-color: black;
     mix-blend-mode: multiply;
     z-index: -1;
     transition: background-color .3s ease;
-}
-
-.back-color::after {
-    content: '';
-    width: 100%;
-    height: 6.4em;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
-    background-color: black;
-    transition: background-color .3s ease-in;
 }
 
 .design {
