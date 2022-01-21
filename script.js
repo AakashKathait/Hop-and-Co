@@ -83,27 +83,27 @@ window.onload = function () {
         })
 
         //Contact Submit
-        contactForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                sendEmail();
-                name.value = ''
-                email.value = ''
-                subject.value = ''
-                message.value = ''
-        })
+        // contactForm.addEventListener('submit', (e) => {
+        //         e.preventDefault();
+        //         sendEmail();
+        //         name.value = ''
+        //         email.value = ''
+        //         subject.value = ''
+        //         message.value = ''
+        // })
 
-        function sendEmail() {
-                Email.send({
-                        Host : "smtp.gmail.com",
-                        Username : "aakashkathait02@gmail.com",
-                        Password : "Devpurposes@4659",
-                        To : 'aakashkathait01@gmail.com',
-                        From : email.value,
-                        Subject : subject.value,
-                        Body : `Name: ${name.value} <br>
-                                Message: ${message.value}`
-                    }).then(
-                      message => alert('Message Sent!')
-                    );
-        }
+        // function sendEmail() {
+        //         Email.send({
+        //                 Host : "smtp.gmail.com",
+        //                 Username : "aakashkathait02@gmail.com",
+        //                 Password : "Devpurposes@4659",
+        //                 To : 'aakashkathait01@gmail.com',
+        //                 From : email.value,
+        //                 Subject : subject.value,
+        //                 Body : `Name: ${name.value} <br>
+        //                         Message: ${message.value}`
+        //             }).then(
+        //               message => alert('Message Sent!')
+        //             );
+        // }
 }
