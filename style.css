@@ -56,7 +56,7 @@ img {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    max-width: 100%;
+    max-width: 100vw;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
