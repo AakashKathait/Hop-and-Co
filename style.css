@@ -32,8 +32,6 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100%;
     min-height: 100%;
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 img {
@@ -272,6 +270,8 @@ form {
     background: #3a3635;
     z-index: 5;
     mix-blend-mode: multiply;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .contact {
